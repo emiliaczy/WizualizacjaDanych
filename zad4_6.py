@@ -28,7 +28,7 @@ class slowa ():
     
         
 
-s=slowa("kajak","nijak")
+s=slowa("kajak","kapak")
 print(s.czy_palindrom())
 print(s.czy_metagramy())
 s2=slowa("mata","tama")
