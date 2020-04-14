@@ -6,25 +6,19 @@ class Samogloska:
     def __iter__(self):
         return self
     def __next__(self):
-        if self.index>=len(self.data):
-            raise StopIteration
-        if self.data[self.index] in ("a","e","i","o","u","y"):
-            print(self.data[self.index])
-        self.index+=1
+        if(isinstance(self.data, str)):
+            if self.index>=len(self.data):
+                raise StopIteration
+            if self.data[self.index] in ("a","e","i","o","u","y"):
+                print(self.data[self.index])
+            self.index+=1
+        else:
+            print("To nie string.")
 
 
 s=Samogloska("uniwerystet")
-s.__next__()
-s.__next__()
-s.__next__()
-s.__next__()
-s.__next__()
-s.__next__()
-s.__next__()
-s.__next__()
-s.__next__()
-s.__next__()
-s.__next__()
+for i in s:
+    i
 
 print("\n\n")
 

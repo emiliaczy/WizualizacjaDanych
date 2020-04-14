@@ -13,24 +13,20 @@ class Wspak:
         self.index = self.index - 1
         return self.data[self.index]
 
-wspak = Wspak("emilia")
-print(wspak.__next__())
-print(wspak.__next__())
-print(wspak.__next__())
-print(wspak.__next__())
-print(wspak.__next__())
-print(wspak.__next__())
-
-print("\n")
-
-wspak2=Wspak("dom")
-print(wspak2.__next__())
-print(wspak2.__next__())
-print(wspak2.__next__())
-print("\n")
 
 for i in Wspak("kwarantanna"):
     print(i)
 
+print("\n")
+
+for i in Wspak("uniwersytet"):
+    print(i)
+
+print ("\n")
+#Drugi sposob na wywolanie:
+x = Wspak("dom")
+print(x.__next__())
+print(x.__next__())
+print(x.__next__())
 
 

@@ -12,22 +12,16 @@ class Parzysty:
         self.index+=1
         
 
-parz = Parzysty("Kwarantanna")
-parz.__next__()
-parz.__next__()
-parz.__next__()
-parz.__next__()
-parz.__next__()
-parz.__next__()
-parz.__next__()
-parz.__next__()
-parz.__next__()
-parz.__next__()
-parz.__next__()
-
-print ("\n\n")
-
 for i in Parzysty("Uniwersytet"):
     i
+
+print("\n\n")
+
+for i in Parzysty("Kwarantanna"):
+    i
+
+
+
+
 
 

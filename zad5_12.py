@@ -18,6 +18,11 @@ print(next(mies))
 print(next(mies))
 print(next(mies))
 
+print ("\n\n")
+# Drugi sposob na wywolanie:
+mies2 = miesiace()
+for i in mies2:
+    print(i)
 
 
 

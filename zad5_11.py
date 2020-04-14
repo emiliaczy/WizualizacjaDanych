@@ -15,3 +15,9 @@ print(next(ciag))
 print(next(ciag))
 print(next(ciag))
 print(next(ciag))
+
+print("\n\n")
+#Drugi sposob na wywolanie:
+ciag2=fib(5)
+for i in ciag2:
+    print(i)
