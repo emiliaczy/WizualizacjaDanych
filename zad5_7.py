@@ -1,7 +1,7 @@
 class Parzysty:
     def __init__(self, data):
         self.data=data
-        self.index = 0
+        self.index = 1
     def __iter__(self):
         return self
     def __next__(self):
