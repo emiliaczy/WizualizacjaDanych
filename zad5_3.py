@@ -38,10 +38,14 @@ kw = Kwadrat(10)
 kw2 = Kwadrat(9)
 print(kw<=kw2)
 print(kw>kw2)
-print(kw>=kw2)
-if kw<kw2:
-    print("Zgadza się")
+if kw>=kw2:
+    print("Jest wiekszy lub rowny")
 else:
-    print("Nieprawda")
+    print("Nie jest wiekszy lub rowny")
+
+if kw<kw2:
+    print("Jest mniejszy")
+else:
+    print("Nie jest mniejszy")
 
 
